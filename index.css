@@ -1,0 +1,14 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    background-image:  url("nexus\ logo.svg") ;
+    background-size: cover;
+}
+
+header nav {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    text-decoration: none;
+}
