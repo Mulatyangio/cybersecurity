@@ -92,6 +92,31 @@ main p:nth-child(2){
 .Questions:hover{
     background-color: yellowgreen;
 }
+footer{
+    width: 98vw;
+    background-color: darkgoldenrod;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    color: bisque;
+    font-style: oblique;
+    font-weight: 600;
+}
+
 @media(max-width:600px){
-    
+    body{
+        width: 90%;
+    }
+    header{
+       image-resolution: 100%;
+    }
 }
