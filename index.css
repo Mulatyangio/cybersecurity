@@ -138,11 +138,25 @@ footer a{
     font-weight: 600;
 }
 
-@media(max-width:600px){
-    body{
-        width: 90%;
+@media(max-width:570px){
+    main{
+        background-image: url(2.jpg);
+        background-size: cover;
+        width: 90vw;
+        height: 99vh;
     }
+    
+        
     header{
        image-resolution: 100%;
+    }
+    header nav{
+        display: none;
+    }
+    footer{
+        width: 90vw;
+    }
+    footer div{
+        display: block;
     }
 }
