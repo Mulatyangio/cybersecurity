@@ -1,7 +1,6 @@
 body{
-    background-image: url(5.jpg);
-    color: wheat;
-    background-size: cover;
+    color: cornsilk;
+    background-image: url(6.jpg);
 }
 header{
     background: 100px;
@@ -37,31 +36,12 @@ header nav a{
     text-decoration: none;
     font-style: bold;
 }
-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 20px;
-}
-main section:nth-child(1){
-    width: 500px;
-    margin-right: 20px;
-}
-main section:last-child{
-    width: 500px;
-    margin-left: 20px;
-}
-.last{
-    text-align: center;
-    font-size: 30px;
-    color: yellow;
-}
-.last a{
-    background-color: darkmagenta;
-    color: whitesmoke;
-    padding: 10px 10px;
-    border-radius: 19px;
+.Questions{
     text-decoration: none;
-
-
+    align-items: center;
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 600px;
 }
